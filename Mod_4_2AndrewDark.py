@@ -7,7 +7,7 @@ text = [
 ]
 all_text = "".join(text)
 
-path = "/Users/macbook/pythonProject14/home.txt2"
+path = "/Users/macbook/pythonProject8/PyPro/home.txt2"
 
 with open("home.txt2", "wb+") as fl:
     fl.write(all_text.encode('utf-8'))
